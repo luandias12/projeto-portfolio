@@ -67,20 +67,37 @@ main {
   margin-top: 20px;
 }
 
+section#ficha  {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  border-radius: 8px;
+  grid-column: 2;
+  
+}
+
 section#ficha h1 {
   color: var(--destaque);
   margin: 15px 0;
   font-size: 1.5em;
   text-align: left;
-  grid-column: 2;
-  
 }
 
 div#social {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5em;
+  font-size: 1.6em;
   gap: 1em;
   margin-top: 15px;
+}
+
+div#social a {
+  color: var(--destaque);
+  transition: 0.5s;
+
+}
+
+div#social a:hover {
+  color: var(--destaque-iverso);
+
 }
